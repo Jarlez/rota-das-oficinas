@@ -1,0 +1,23 @@
+#buttonOptions {
+  display: flex;
+  gap: 3rem;
+}
+
+#buttonOptions a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--preto);
+  background-color: var(--amarelo);
+}
+
+#buttonOptions a:hover {
+  transition: 0.5s;
+  background: var(--branco);
+}

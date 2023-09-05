@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título e icon da guia -->
+    <title>Rota das Oficinas - Teste</title>
+    <link rel="icon" href="/assets/rotadasoficinas-logo.webp" type="image/x-icon" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/gameLife.css" />
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <header class="navbar">
+        <a href="./index.html" target="_self" class="logoImage">
+            <img src="/assets/rotadasoficinas-logo.webp" alt="logo Rota das Oficinas" />
+        </a>
+        <nav class="navbarNav">
+            <ul>
+                <li><a href="./index.html" target="_self" title="Ir para a tela inicial">Tela inicial</a></li>
+                <li><a href="https://jarlez.github.io/Portfolio/" target="_blank"
+                        title="Visitar o portfólio">Portfólio</a></li>
+                <li><a href="https://github.com/Jarlez" target="_blank" title="Visitar o GitHub">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/jarlessayhare7/" target="_blank"
+                        title="Visitar o LinkedIn">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção jogo da vida -->
+    <section id="pageGame">
+        <h1>Jogo da vida</h1>
+        <div class="game">
+            <!-- Tabuleiro será gerado através do script -->
+            <table id="board"></table>
+
+            <!-- Botões de iniciar, parar o tabuleiro e apagar -->
+            <div class="gameButtons">
+                <button class="buttons" onclick="startGame()">Iniciar</button>
+                <button class="buttons" onclick="stopGame()">Parar</button>
+                <button class="buttons" onclick="deleteBoard()">Apagar</button>
+            </div>
+
+            <!-- Nessa div será gerado o status do jogo através do script -->
+            <div id="status"></div>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="/js/gameLife.js"></script>
+
+</body>
+
+</html>

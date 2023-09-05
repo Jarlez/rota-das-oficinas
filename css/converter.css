@@ -1,0 +1,45 @@
+.converterArea {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 1rem;
+  border-radius: 8px;
+  color: var(--branco);
+}
+
+.converterArea h2 {
+  font-size: 1.3rem;
+}
+
+.inputField {
+  padding: 0.3rem;
+  border-radius: 3px;
+  background-color: var(--branco);
+}
+
+.inputField input {
+  border: none;
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+  background-color: transparent;
+}
+
+.inputField input:focus {
+  outline: none;
+}
+
+.converterButton {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: var(--amarelo);
+}
+
+.result {
+  font-weight: bold;
+  height: 15vh;
+  overflow-y: auto;
+  color: var(--branco);
+}

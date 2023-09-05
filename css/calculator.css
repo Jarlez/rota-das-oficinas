@@ -1,0 +1,141 @@
+.tables {
+  display: flex;
+  gap: 3rem;
+}
+
+.tableBlock {
+  width: 400px;
+  border-radius: 6px;
+  background-color: var(--cinza);
+}
+
+.tableBlock h2 {
+  padding: 0.5rem;
+  text-align: center;
+  color: var(--branco);
+}
+
+#productList,
+#customerList,
+#calcResult {
+  width: 350px;
+  height: 15vh;
+  padding: 0 1.5rem;
+  list-style: none;
+  overflow-y: auto;
+  color: var(--branco);
+}
+
+.buttonCalculator {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.5rem;
+}
+
+.buttonCalculator button {
+  width: 150px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: var(--amarelo);
+}
+
+.productForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 5rem;
+  gap: 0.5rem;
+}
+
+.productForm label {
+  margin-bottom: 5px;
+}
+
+.productForm input {
+  margin-left: 1rem;
+}
+
+.productForm input[type="text"],
+.productForm input[type="number"] {
+  width: 200px;
+  padding: 5px;
+}
+
+.productForm input:focus {
+  outline: none;
+}
+
+.addButtonProduct {
+  width: 150px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: var(--amarelo);
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  color: var(--branco);
+}
+
+.customerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 5rem;
+  gap: 0.5rem;
+}
+
+.customerForm label {
+  margin-bottom: 5px;
+}
+
+.customerForm input {
+  margin-left: 1rem;
+}
+
+.customerForm input[type="text"],
+.customerForm input[type="number"] {
+  width: 200px;
+  padding: 5px;
+}
+
+.customerForm input:focus {
+  outline: none;
+}
+
+.addButtonCustomer {
+  width: 150px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: var(--amarelo);
+}
+
+.closeButton {
+  width: 150px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: var(--amarelo);
+}
+
+.closeButtonProduct {
+  width: 150px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: var(--amarelo);
+}
+
+.buttonContainer {
+  gap: 1rem;
+  display: flex;
+
+}
+
+

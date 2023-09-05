@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título e icon da guia -->
+    <title>Rota das Oficinas - Teste</title>
+    <link rel="icon" href="/assets/rotadasoficinas-logo.webp" type="image/x-icon" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/converter.css" />
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <header class="navbar">
+
+        <!-- Logo da empresa -->
+        <a href="./index.html" target="_self" class="logoImage">
+            <img src="/assets/rotadasoficinas-logo.webp" alt="logo Rota das Oficinas" />
+        </a>
+
+        <!-- Lista de links da navbar -->
+        <nav class="navbarNav">
+            <ul>
+                <li><a href="./index.html" target="_self" title="Ir para a tela inicial">Tela inicial</a></li>
+                <li><a href="https://jarlez.github.io/Portfolio/" target="_blank" title="Visitar o portfólio">Portfólio</a></li>
+                <li><a href="https://github.com/Jarlez" target="_blank" title="Visitar o GitHub">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/jarlessayhare7/" target="_blank" title="Visitar o LinkedIn">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção do conversor -->
+    <section class="centralizer">
+        <h1>Conversor de Números Romanos</h1>
+        <!-- Área para inserir o valor ou algarismo para conversão-->
+        <div class="converterArea">
+            <h2>Faça sua conversão aqui:</h2>
+
+            <!-- Área para inserir o valor ou algarismo para conversão-->
+            <div class="inputField">
+                <input type="text" id="inputText" placeholder="Ex: 70 ou V">
+            </div>
+
+            <!-- Botão com atributo onclick para envio das informações inseridas no inputText-->
+            <button class="converterButton" onclick="convert()">Converter</button>
+
+            <!-- A conversão feita em conversor.js retornará o resultado na div com id output-->
+            <div class="result">
+                <p id="output"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="/js/converter.js"></script>
+
+</body>
+
+</html>
